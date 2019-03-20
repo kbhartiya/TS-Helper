@@ -1,5 +1,5 @@
 data = []
-with open('/home/justbj/Projects/Windspeed-forecasting/beresford061203.csv','r') as f:
+with open('./beresford061203.csv','r') as f:
 	for line in f.readlines()[55:]:
 		#print(type(line))
 		data.append(line)
